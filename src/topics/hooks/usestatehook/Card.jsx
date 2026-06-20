@@ -7,6 +7,9 @@ const Card = () => {
         img_url:"https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_1280.jpg"
     })
     
+    const[data,setData]=useState(null)
+
+
     const change_Image=()=>{
         const url=prompt("Enter your Image url")
         setCardData({...cardData,img_url:url})
@@ -20,7 +23,6 @@ const Card = () => {
 
 
     
-
 
   return (
       <div style={{width:"300px",height:"300px",borderRadius:"10px", border:"2px solid black"}}>
