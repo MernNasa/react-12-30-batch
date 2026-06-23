@@ -11,6 +11,8 @@ import Jsx_Rules from "./topics/jsx_expression/Jsx_Rules"
 import Props_Home from "./topics/props/Props_Home"
 import Props_With_Conditional from "./topics/props_conditional_rendering/Props_With_Conditional"
 import PropsDrilling from "./topics/propsdrilling/PropsDrilling"
+import TailwindCss from "./topics/tailwindcss/TailwindCss"
+import Use_Context_Api from "./topics/usecontext_api/Use_Context_Api"
 import UseEffectHook from "./topics/useeffecthook/UseEffectHook"
 import UseEffectHookTask from "./topics/useeffecthook/UseEffectHookTask"
 
@@ -32,7 +34,9 @@ const App=()=>{
             {/* <UseEffectHookTask/>  */}
             {/* <AxiosConcept/> */}
             {/* <PropsDrilling/> */}
-            <Hoc/>
+            {/* <Hoc/> */}
+            {/* <Use_Context_Api/> */}
+            <TailwindCss/>
         </div>
     )
 }
