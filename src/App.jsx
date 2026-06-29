@@ -19,6 +19,10 @@ import Use_Context_Api from "./topics/usecontext_api/Use_Context_Api"
 import UseEffectHook from "./topics/useeffecthook/UseEffectHook"
 import UseEffectHookTask from "./topics/useeffecthook/UseEffectHookTask"
 import ControlledForms from "./topics/controlledforms/ControlledForms"
+import RadioAndCheckbox from "./topics/controlledforms/RadioButtons"
+import RadioButtons from "./topics/controlledforms/RadioButtons"
+import Checkbox from "./topics/controlledforms/Checkbox"
+import MultipleCheckboxs from "./topics/controlledforms/MultipleCheckboxs"
 
 
 const App=()=>{
@@ -43,7 +47,10 @@ const App=()=>{
             {/* <TailwindCss/> */}
             {/* <ListAndKeys/> */}
             {/* <UncontrolledForm/> */}
-            <ControlledForms/>
+            {/* <ControlledForms/> */}
+            {/* <RadioButtons/> */}
+            {/* <Checkbox/> */}
+            <MultipleCheckboxs/>
 
             <ToastContainer/>
         </div>
